@@ -1,0 +1,5 @@
+Open the experiment at this address: http://localhost/Experiment/index.html 
+Make sure that the Apache server is running.
+Otherwise writing/reading files using PHP will not work. 
+
+Refresh: Ctrl + Fn + F5  (reflect the changes in code to xampp)
