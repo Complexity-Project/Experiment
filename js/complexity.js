@@ -458,10 +458,11 @@ function saveData(name, data) {
 // Function to read and parse CSV file using fetch
 async function loadComparisons(session_id) {
     try {
-        const response = await fetch('images/comparisons.csv');
+        const response = await fetch('./images/comparisons.csv');
         const csvText = await response.text();
         const rows = csvText.split('\n').slice(1); // Skip header row
         
+        console.log("Comparisons loaded:", rows.length);
         const sessionComparisons = rows
             .map(row => {
                 const [sess_id, img1, img2] = row.split(',');
