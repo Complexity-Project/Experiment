@@ -15,6 +15,8 @@ Following the image comparison task, participants complete a brief questionnaire
 
 In addition to the collected data, three supplementary text files are generated within the `data/` directory. These files provide metadata on session statuses: `occupied_sessions.txt` contains a list of sessions currently in progress, `completed_sessions.txt` records sessions that have been successfully completed, and `session_log.txt` documents the start time and, where applicable, the end time of both completed and ongoing sessions.
 
+![image](experiment.png)
+
 ---
 
 
