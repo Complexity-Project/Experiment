@@ -1,4 +1,11 @@
 # Visual Complexity Perception Experiment
+[![arXiv](https://img.shields.io/badge/arXiv-2501.15890-B31B1B.svg)](https://arxiv.org/abs/2501.15890)
+
+This repository contains the experiment setup for this paper:
+
+> **Complexity in Complexity: Understanding Visual Complexity Through Structure, Color, and Surprise**  
+> Karahan Sarıtaş, Peter Dayan, Tingke Shen, Surabhi S. Nath  
+> *arXiv preprint arXiv:2501.15890, 2025*
 
 ## Overview
 This experiment explores how participants perceive **visual complexity** in images. Built using [jsPsych](https://www.jspsych.org/), the experiment allows participants to compare image pairs and select which one appears more visually complex. The results aim to enhance our understanding of human perception and its applications in fields like computer vision and design.
